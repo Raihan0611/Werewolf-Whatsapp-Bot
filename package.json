@@ -1,0 +1,66 @@
+{
+    "name": "werewolf",
+    "version": "5.3.3",
+    "description": "Recode By Raihan",
+    "main": "index.js",
+    "type": "module",
+    "directories": {
+        "lib": "lib",
+        "src": "src",
+        "plugins": "plugins"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "node test.js",
+        "test2": "nodemon index.js"
+    },
+    "keywords": [
+        "termux-whatsapp-bot",
+        "whatsapp-bot",
+        "whatsapp",
+        "js-whatsapp",
+        "whatsapp",
+        "Games-wabot",
+        "wabot-aq",
+        "multi-device",
+        "MD",
+        "baileys-md"
+    ],
+    "homepage": "https://github.com/BochilGaming/games-wabot",
+    "author": {
+        "name": "BochilGaming"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BochilGaming/games-wabot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/BochilGaming/games-wabot/issues"
+    },
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@latest",
+        "awesome-phonenumber": "^2.68.0",
+        "cfonts": "^2.10.0",
+        "chalk": "^5.0.0",
+        "cheerio": "^1.0.0-rc.10",
+        "file-type": "^17.1.1",
+        "fluent-ffmpeg": "^2.1.2",
+        "lowdb": "^3.0.0",
+        "moment-timezone": "^0.5.33",
+        "mongoose": "github:Automattic/mongoose",
+        "node-fetch": "^3.2.0",
+        "node-gtts": "^2.0.2",
+        "node-os-utils": "^1.3.6",
+        "node-webpmux": "^3.1.1",
+        "pino": "^7.8.0",
+        "pino-pretty": "^7.5.1",
+        "qrcode": "^1.5.0",
+        "qrcode-terminal": "^0.12.0",
+        "readline": "^1.3.0",
+        "syntax-error": "^1.4.0",
+        "terminal-image": "^2.0.0",
+        "url-regex-safe": "^3.0.0",
+        "yargs": "^17.5.1"
+    }
+}
