@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/BochilGaming/games-wabot",
+    "homepage": "https://github.com/Raihan0611/Werewolf-Whatsapp-Bot",
     "author": {
-        "name": "BochilGaming"
+        "name": "Raihan0611"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BochilGaming/games-wabot.git"
+        "url": "git+https://github.com/Raihan0611/Werewolf-Whatsapp-Bot.git"
     },
     "bugs": {
-        "url": "https://github.com/BochilGaming/games-wabot/issues"
+        "url": "https://github.com/Raihan0611/Werewolf-Whatsapp-Bot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
