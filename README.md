@@ -85,7 +85,7 @@ Berikut adalah daftar perintah yang dapat digunakan selama permainan:
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/Raihan0611/Werewolf-Whatsapp-Bot
+   git clone https://github.com/Raihan0611/Werewolf.git
    ```
 2. Masuk ke folder repositori:
    ```bash

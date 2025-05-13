@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: await resizeThumb(thumb, 300, 175),
-            thumbnailUrl: "https://whatsapp.com/channel/0029VaMxHNd4SpkBSTSsGF2r",
+            thumbnailUrl: "https://chat.whatsapp.com/JqjGYDq0N58CcvkB5IWHLg",
             sourceUrl: "https://www.instagram.com/raihan06.07/",
             mediaUrl: thumb,
           },

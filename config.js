@@ -16,14 +16,14 @@ global.link = {
 /*============== NOMOR ==============*/
 global.info = {
 	nomorbot: '6285890900095',
-	nomorown: '6289662732827',
+	nomorown: '6285173061143',
 	namebot: 'Werewolf Bot',
 	nameown: 'Raihan'
 }
 
 /*============== STAFF ==============*/
 global.owner = [
-    ['6289662732827', 'Raihan', 'true']
+    ['6285173061143', 'Raihan', 'true']
 // [number, dia creator/owner?, dia developer?]
 ]
 global.mods = []

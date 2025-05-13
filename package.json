@@ -1,6 +1,6 @@
 {
     "name": "werewolf",
-    "version": "5.3.3",
+    "version": "5.4.5",
     "description": "Recode By Raihan",
     "main": "index.js",
     "type": "module",
