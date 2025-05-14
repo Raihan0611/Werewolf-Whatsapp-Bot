@@ -1,6 +1,6 @@
 {
     "name": "werewolf",
-    "version": "5.4.5",
+    "version": "5.3.4",
     "description": "Recode By Raihan",
     "main": "index.js",
     "type": "module",
@@ -46,6 +46,7 @@
         "cheerio": "^1.0.0-rc.10",
         "file-type": "^17.1.1",
         "fluent-ffmpeg": "^2.1.2",
+        "human-readable": "^0.2.1",
         "lowdb": "^3.0.0",
         "moment-timezone": "^0.5.33",
         "mongoose": "github:Automattic/mongoose",
