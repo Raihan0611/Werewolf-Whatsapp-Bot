@@ -42,7 +42,7 @@
   Penyihir jahat yang membantu Werewolf dengan kemampuan menerawang Seer atau Werewolf.
 
 - **TANNER 🪓**  
-  Orang depresi yang ingin mati. Tanner menang jika berhasil divote mati, tetapi tidak menang jika dibunuh oleh Werewolf.
+  Orang depresi yang ingin mati. Tanner menang jika berhasil divote mati, tetapi tidak menang jika dibunuh oleh Werewolf, diracuni Penyihir, dan ditembak Hunter.
 
 - **WITCH 🧙🏻‍♀**  
   Penyihir baik yang memiliki dua ramuan:  
