@@ -45,11 +45,11 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     let { exp, level, role } = global.db.data.users[m.sender]
     let { min, xp, max } = xpRange(level, global.multiplier)
     let tag = `@${m.sender.split('@')[0]}`
-    let image = hwaifu.getRandom()
+    let image = global.url.profil
     let user = global.db.data.users[m.sender]
     let limit = user.premiumTime >= 1 ? 'Unlimited' : user.limit
     let name = `${user.registered ? user.name : conn.getName(m.sender)}`
-    let status = `${m.sender.split`@`[0] == info.nomorown ? 'Developer' : user.premiumTime >= 1 ? 'Premium User' : user.level >= 1000 ? 'Elite User' : 'Free User'}`
+    let status = `${m.sender.split`@`[0] == info.nomerown ? 'Developer' : user.premiumTime >= 1 ? 'Premium User' : user.level >= 1000 ? 'Elite User' : 'Free User'}`
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let d = new Date(new Date + 3600000)
     let locale = 'id'

@@ -8,7 +8,7 @@
 1. **Berbasis WhatsApp Bot**: Permainan dikelola sepenuhnya oleh bot WhatsApp, sehingga pemain dapat fokus menikmati permainan tanpa harus mengatur manual.
 2. **Peran yang Dinamis**: Setiap pemain mendapatkan peran yang unik, dengan kemampuan dan tujuan berbeda.
 3. **Multiplayer**: Mendukung 4 hingga 15 pemain dalam satu sesi permainan.
-4. **Fitur Cheat untuk Owner**: Fitur khusus bagi owner bot untuk melihat informasi detail tentang grup yang sedang bermain.
+4. **Fitur Debug untuk Owner/Developer**: Fitur khusus untuk melihat informasi detail tentang grup yang sedang bermain.
 5. **Interaksi Berbasis Perintah**: Pemain hanya perlu menggunakan perintah sederhana untuk berinteraksi dengan bot.
 
 ---
@@ -52,6 +52,9 @@
 - **HUNTER 🏹**  
   Pemburu yang dapat menembak salah satu pemain jika ia divote mati (kecuali jika diracuni Penyihir atau diserang Werewolf).
 
+- **NECROMANCER 🔮🪄**  
+  Dapat menghidupkan kembali satu pemain yang sudah mati (baik maupun jahat), hanya bisa digunakan sekali.
+
 ---
 
 ## **List Perintah**
@@ -66,40 +69,121 @@ Berikut adalah daftar perintah yang dapat digunakan selama permainan:
 - **ww delete**: Menghapus sesi permainan.  
 - **ww player**: Melihat daftar pemain dalam sesi.  
 - **ww timer**: Mengaktifkan timer (tidak disarankan, karena dapat menyebabkan bot crash).  
-- **wewecheat**: Melihat informasi grup yang sedang bermain (hanya untuk owner bot).
+- **ww report**: Melaporkan bug atau saran fitur ke developer.  
+- **ww tutor**: Melihat tutorial cara bermain.    
 
 ---
 
-## **Fitur Cheat (wewecheat)**
+## **Fitur Debug (.debug)**
 
-- **Akses Khusus Owner**: Fitur ini hanya dapat digunakan oleh owner bot melalui chat pribadi.  
-- **Informasi Detail**:
-  - Nama grup yang sedang bermain.
-  - ID grup.
-  - Jumlah pemain (hidup dan mati).
-  - Role masing-masing pemain.
+- **Akses Khusus Owner/Developer**: Fitur ini hanya dapat digunakan oleh owner bot atau developer.
+- **Fungsi Utama**:
+  - Melihat semua role & status player di room.
+  - Skip fase room saat ini.
+  - Tampilkan fase saat ini beserta sisa waktu.
+  - Hanya untuk debugging, bukan untuk pemain biasa.
 
 ---
 
-## **Cara Install**
+## **Fitur Kontrol Menu Bot**
 
-1. Clone repositori ini:
+Jika kamu ingin menonaktifkan menu bot di grup (misal agar tidak mengganggu menu bot lain), gunakan perintah berikut:
+
+- **.disable menu**  
+  Menonaktifkan menu bot di grup. Menu tidak akan muncul hingga diaktifkan kembali.
+
+- **.enable menu**  
+  Mengaktifkan kembali menu bot di grup.
+
+Fitur ini hanya mempengaruhi tampilan menu, tidak mematikan fungsi utama bot.
+
+---
+
+## **Tutorial Cara Bermain Werewolf**
+
+*(Versi Bot WhatsApp)*
+
+**A. Pembuatan Room**  
+Satu player mengetik `.ww create` untuk membuat Room dan para Player yang ingin main mengetik `.ww join` hingga jumlah pemain cukup. Lalu ketik `.ww start` untuk memulai permainan maka Bot akan berjalan secara Otomatis.
+
+**B. Pembagian Peran**  
+Setiap pemain akan mendapatkan peran secara acak, seperti Werewolf, Seer, Guardian, dll.  
+Sebelum permainan dimulai, bot akan membagikan peran secara otomatis lewat chat pribadi. Peran bersifat rahasia dan tidak boleh dibocorkan ke pemain lain.
+
+**C. Fase Permainan (Dipandu Bot)**  
+Permainan terbagi menjadi 4 fase yang berjalan berulang:
+
+1. **Pagi (Info & Pengumuman)**  
+   - Bot akan mengumumkan hasil malam sebelumnya, seperti siapa yang mati, dan informasi lainnya.
+
+2. **Siang (Diskusi)**  
+   - Pemain bebas berdiskusi di grup untuk mencari tahu siapa yang dicurigai sebagai Werewolf.
+   - Tidak ada perintah khusus di fase ini, cukup ngobrol dan analisis bareng.
+
+3. **Sore (Voting)**  
+   - Pemain melakukan voting untuk mengeliminasi satu pemain yang paling dicurigai.
+   - Gunakan command: `.ww vote (nomor)` contoh `.ww vote 1`
+
+4. **Malam (Aksi Peran)**  
+   - Pemain yang punya kemampuan khusus bisa menggunakan perannya lewat chat pribadi ke bot.
+   - Gunakan command: `.wwpc` Bot akan membalas dan memberi pilihan skill yang bisa digunakan, sesuai peranmu. contoh penggunaan `.wwpc kill 1`
+   - Contoh aksi malam: Werewolf memilih korban, Seer menerawang, Guardian melindungi, dll.
+
+**D. Cara Menang**  
+- Tim Warga menang jika semua Werewolf sudah dieliminasi.
+- Tim Werewolf menang jika jumlah Warga sisa 1.
+- Tanner menang sendirian jika dia dieliminasi saat voting sore.
+
+**Tips Bermain**
+- Jangan terlalu cepat percaya atau menuduh tanpa bukti.
+- Perhatikan ketikan & reaksi pemain lain.
+- Kalau kamu dapat peran spesial, pakai dengan bijak dan jangan ketahuan!
+
+**Catatan Tambahan**
+- Semua interaksi dengan bot bersifat pribadi kecuali voting.
+- Jangan spam command.
+- Jaga rahasia peranmu agar strategi tetap berjalan.
+
+---
+
+## **Cara Install & Jalankan**
+
+1. **Clone repositori ini:**
    ```bash
    git clone https://github.com/Raihan0611/Werewolf.git
    ```
-2. Masuk ke folder repositori:
+2. **Masuk ke folder repositori:**
    ```bash
    cd Werewolf
    ```
-3. Install dependencies:
+3. **Install dependencies:**
    ```bash
    npm install
    ```
-4. Jalankan bot:
+4. **Edit file `config.js`:**
+   - Masukkan nomor bot dan nomor owner pada bagian berikut:
+     ```js
+     global.owner = [
+       ['62xxxxxxxxxx', 'NamaOwner', true],
+     ];
+     global.info = {
+       nomerbot: '62xxxxxxxxxx', // nomor bot kamu
+       pairingNumber: '62xxxxxxxxxx', // nomor bot kamu
+       nameown: 'NamaOwner',
+       nomerown: '62xxxxxxxxxx',
+       // ...
+     };
+     ```
+   - **Nomor harus diawali 62** (bukan 08).
+5. **Jalankan bot:**
    ```bash
    npm start
    ```
-5. Scan kode QR yang muncul di terminal menggunakan aplikasi WhatsApp dengan nomor yang akan dijadikan bot Werewolf.
+6. **Pairing Bot ke WhatsApp:**
+   - Saat bot dijalankan, nomor bot dan owner akan otomatis diambil dari file config.
+   - Pairing code akan muncul di terminal, **selalu gunakan kode pairing "RAIVERSE"** saat diminta di aplikasi WhatsApp.
+   - **Tidak perlu scan QR code**, cukup pairing dengan nomor dan kode tersebut.
+
 ---
 
 **Selamat bermain dan nikmati keseruannya! 🎮**

@@ -1,157 +1,79 @@
-import { watchFile, unwatchFile } from 'fs'
-import chalk from 'chalk'
-import { fileURLToPath } from 'url'
-import fs from 'fs'
-const pkg = JSON.parse(fs.readFileSync(new URL('./package.json', import.meta.url)))
-global.version = `v${pkg.version}`
+import { watchFile, unwatchFile } from 'fs';
+import chalk from 'chalk';
+import { fileURLToPath } from 'url';
+import fs from 'fs';
+const pkg = JSON.parse(fs.readFileSync(new URL('./package.json', import.meta.url)));
+global.version = `v${pkg.version}`;
 
-/*============== INFO OWNER ==============*/
-global.link = {
-	ig: 'https://www.instagram.com/raihan06.07/',
-	gh: 'https://github.com/Raihan0611',
-	gc: 'https://whatsapp.com/channel/0029VaMxHNd4SpkBSTSsGF2r',
-	web: 'https://whatsapp.com/channel/0029VaMxHNd4SpkBSTSsGF2r'
-}
+// Global Settings
+global.setting = {
+  autoclear: false,
+  addReply: true, // Tambahkan balasan dengan thumbnail di pesan
+};
 
-/*============== NOMOR ==============*/
-global.info = {
-	nomorbot: '6285890900095',
-	nomorown: '6285173061143',
-	namebot: 'Werewolf Bot',
-	nameown: 'Raihan'
-}
-
-/*============== STAFF ==============*/
+// Owner Information
 global.owner = [
-    ['6285173061143', 'Raihan', 'true']
-// [number, dia creator/owner?, dia developer?]
-]
-global.mods = []
-global.prems = []
+  ['62xxxxxxxxxx', 'Raihan', true],
+];
 
-/*==============API ==============*/
+// Bot Information
+global.info = {
+  nomerbot: '62xxxxxxxxxx', // nomor bot mu
+  pairingNumber: '62xxxxxxxxxx', // penting!! wajib ganti jadi nomor bot mu 
+  nameown: 'Raihan',
+  nomerown: '62xxxxxxxxxx',
+  author: 'Raihan',
+  namebot: 'Werewolf Bot',
+};
+
+global.wait = '_M O H O N - T U N G G U_'; // Pesan saat menunggu
+global.maxwarn = 5;
+
+// URLs
+global.url = {
+  profil: 'https://files.catbox.moe/ijeati.jpg',
+  did: 'https://telegra.ph/file/fdc1a8b08fe63520f4339.jpg',
+  rules: 'https://telegra.ph/file/afcfa712bd09f4fcf027a.jpg',
+  thumbnail: 'https://files.catbox.moe/ijeati.jpg',
+  thumb: 'https://files.catbox.moe/ijeati.jpg',
+  logo: 'https://telegra.ph/file/07428fea2fd4dccaab65f.jpg',
+  unReg: 'https://telegra.ph/file/ef02d1fdd59082d05f08d.jpg',
+  registrasi: 'https://itzpire.com/file/6ead5b50254b.jpg',
+  confess: 'https://telegra.ph/file/03cabea082a122abfa5be.jpg',
+  akses: 'https://telegra.ph/file/6c7b9ffbdfb0096e1db3e.jpg',
+  wel: 'https://telegra.ph/file/9dbc9c39084df8691ebdd.mp4', // Welcome GIF
+  bye: 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4', // Goodbye GIF
+  sound: 'https://media.vocaroo.com/mp3/1awgSZYHXP3B', // Audio menu
+  sig: '',
+  sgh: '',
+  sgc: 'https://whatsapp.com/channel/0029VaMxHNd4SpkBSTSsGF2r',
+};
+
+// Payment Information
+global.payment = {
+  psaweria: '-',
+  ptrakterr: '-',
+  pdana: '-',
+};
+
+// API Configuration
+global.api = {
+  btch: '_',
+  rose: '_',
+};
 global.APIs = {
-    xteam: 'https://api.xteam.xyz',
-    lol: 'https://api.lolhuman.xyz',
-    males: 'https://malesin.xyz',
-    zein: 'https://api.zahwazein.xyz',
-    rose: 'https://api.itsrose.life',
-    skizo: 'https://skizo.tech',
-    saipul: 'https://saipulanuar.cf'
-}
+  btch: 'https://api.botcahx.eu.org',
+  rose: 'https://api.itsrose.rest',
+};
 global.APIKeys = {
-    'https://api.zahwazein.xyz': 'zenzkey_848b800b1f',
-    'https://api.xteam.xyz': 'cristian9407',
-    'https://api.lolhuman.xyz': 'IchanZX',
-    'https://api.itsrose.life': 'Rk-Ashbornt',
-    'https://skizo.tech' : 'pinott'
-}
+  'https://api.botcahx.eu.org': '_',
+  'https://api.itsrose.rest': '_',
+};
 
-/*============== WATERMARK ==============*/
-global.wm = '© 2025 Werewolf'
-global.author = 'Raihan'
-
-/*============== TEXT ==============*/
-global.wait = '_「P R O S E S」...._'
-
-/*========== HIASAN ===========*/
-global.decor = {
-	menut: '❏═┅═━–〈',
-	menub: '┊•',
-	menub2: '┊',
-	menuf: '┗––––––––––✦',
-	hiasan: '꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷',
-
-	menut: '––––––『',
-    menuh: '』––––––',
-    menub: '┊☃︎ ',
-    menuf: '┗━═┅═━––––––๑\n',
-	menua: '',
-	menus: '☃︎',
-
-	htki: '––––––『',
-	htka: '』––––––',
-	haki: '┅━━━═┅═❏',
-	haka: '❏═┅═━━━┅',
-	lopr: 'Ⓟ',
-	lolm: 'Ⓛ',
-	htjava: '❃'
-}
-
-global.hwaifu = [
-    'https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
-    'https://i.pinimg.com/originals/85/4d/bb/854dbbd30304cd69f305352f0183fad0.jpg',
-    'https://i.pinimg.com/originals/32/2c/a4/322ca456fa2cdec4b717895a65adfa8d.jpg',
-    'https://i.pinimg.com/originals/f2/dd/cc/f2ddccd5a1b89d2302cf75c6520c58dd.png',
-    'https://i.pinimg.com/originals/aa/6b/df/aa6bdf98cbc9e1fc741c36682fa3e838.jpg'
-]
-/*============== EMOJI ==============*/
-global.rpg = {
-    emoticon(string) {
-        string = string.toLowerCase()
-        let emot = {
-            level: '📊',
-            limit: '🎫',
-            health: '❤️',
-            exp: '✨',
-            atm: '💳',
-            money: '💰',
-            bank: '🏦',
-            potion: '🥤',
-            diamond: '💎',
-            common: '📦',
-            uncommon: '🛍️',
-            mythic: '🎁',
-            legendary: '🗃️',
-            superior: '💼',
-            pet: '🔖',
-            trash: '🗑',
-            armor: '🥼',
-            sword: '⚔️',
-            pickaxe: '⛏️',
-            fishingrod: '🎣',
-            wood: '🪵',
-            rock: '🪨',
-            string: '🕸️',
-            horse: '🐴',
-            cat: '🐱',
-            dog: '🐶',
-            fox: '🦊',
-            robo: '🤖',
-            petfood: '🍖',
-            iron: '⛓️',
-            gold: '🪙',
-            emerald: '❇️',
-            upgrader: '🧰',
-            bibitanggur: '🌱',
-            bibitjeruk: '🌿',
-            bibitapel: '☘️',
-            bibitmangga: '🍀',
-            bibitpisang: '🌴',
-            anggur: '🍇',
-            jeruk: '🍊',
-            apel: '🍎',
-            mangga: '🥭',
-            pisang: '🍌',
-            botol: '🍾',
-            kardus: '📦',
-            kaleng: '🏮',
-            plastik: '📜',
-            gelas: '🧋',
-            chip: '♋',
-            umpan: '🪱',
-            skata: '🧩'
-        }
-        let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
-        if (!results.length) return ''
-        else return emot[results[0][0]]
-    }
-}
-
-//------ JANGAN DIUBAH -----
-let file = fileURLToPath(import.meta.url)
+// Watch for File Changes
+let file = fileURLToPath(import.meta.url);
 watchFile(file, () => {
-    unwatchFile(file)
-    console.log(chalk.redBright("Update 'config.js'"))
-    import(`${file}?update=${Date.now()}`)
-})
+  unwatchFile(file);
+  console.log(chalk.redBright("Update 'config.js'"));
+  import(`${file}?update=${Date.now()}`);
+});
