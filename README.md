@@ -81,6 +81,7 @@ Berikut adalah daftar perintah yang dapat digunakan selama permainan:
   - Melihat semua role & status player di room.
   - Skip fase room saat ini.
   - Tampilkan fase saat ini beserta sisa waktu.
+  - Set/atur role player
   - Hanya untuk debugging, bukan untuk pemain biasa.
 
 ---
@@ -163,18 +164,14 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
 4. **Edit file `config.js`:**
    - Masukkan nomor bot dan nomor owner pada bagian berikut:
      ```js
-     global.owner = [
-       ['62xxxxxxxxxx', 'NamaOwner', true],
-     ];
-     global.info = {
-       nomerbot: '62xxxxxxxxxx', // nomor bot kamu
-       pairingNumber: '62xxxxxxxxxx', // nomor bot kamu
-       nameown: 'NamaOwner',
-       nomerown: '62xxxxxxxxxx',
-       // ...
-     };
+    // Global Configuration
+    const ownerNumbers = '62xxxxxxxxxxx';
+    const botNumbers = '62xxxxxxxxxxx';
+    const NamaOwner = 'Raihan';
+    const NamaBot = '© 2025 Werewolf Bot';
      ```
    - **Nomor harus diawali 62** (bukan 08).
+   - **PENTING!!!** Nomor bot harus di isi di file `config.js` karena system akan mengambil nomor bot dari situ untuk pairing.
 5. **Jalankan bot:**
    ```bash
    npm start

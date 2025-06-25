@@ -11,7 +11,7 @@ let handler = async (m) => {
    └───>
 `)
 }
-handler.help = ['database', 'user']
+handler.help = ['database']
 handler.tags = ['info']
 handler.command = /^(database|jumlahdatabase|user)$/i
 

@@ -1,6 +1,6 @@
 {
   "name": "werewolf",
-  "version": "6.0.0",
+  "version": "6.2.1",
   "description": "Werewolf Game Bot for WhatsApp By Raihan",
   "main": "index.js",
   "type": "module",
