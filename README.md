@@ -161,15 +161,17 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
    ```bash
    npm install
    ```
-4. **Edit file `config.js`:**
-   - Masukkan nomor bot dan nomor owner pada bagian berikut:
-     ```js
-    // Global Configuration
-    const ownerNumbers = '62xxxxxxxxxxx';
-    const botNumbers = '62xxxxxxxxxxx';
-    const NamaOwner = 'Raihan';
-    const NamaBot = '© 2025 Werewolf Bot';
-     ```
+**4. Edit file `config.js`:**
+
+- Buka file `config.js` di folder utama project.
+- Isi data berikut sesuai dengan nomor WhatsApp bot dan owner milikmu:
+  ```js
+  // Global Configuration
+  const ownerNumbers = ['62xxxxxxxxxxx'];
+  const botNumbers = ['62xxxxxxxxxxx'];
+  const NamaOwner = 'Nama Kamu';
+  const NamaBot = 'Nama Bot Kamu';
+  ```
    - **Nomor harus diawali 62** (bukan 08).
    - **PENTING!!!** Nomor bot harus di isi di file `config.js` karena system akan mengambil nomor bot dari situ untuk pairing.
 5. **Jalankan bot:**
