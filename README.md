@@ -150,7 +150,7 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/Raihan0611/Werewolf.git
+   git clone https://github.com/Raihan0611/Werewolf-Whatsapp-Bot.git
    ```
 2. **Masuk ke folder repositori:**
    ```bash
@@ -188,3 +188,4 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
 ---
 
 **Selamat bermain dan nikmati keseruannya! 🎮**
+
