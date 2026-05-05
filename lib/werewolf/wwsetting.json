@@ -1,0 +1,7 @@
+{
+  "timer": true,
+  "timerSeconds": 60,
+  "gcmode": true,
+  "autotimer": false,
+  "kartu": false
+}

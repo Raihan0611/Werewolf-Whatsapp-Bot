@@ -46,7 +46,7 @@
 
 - **WITCH 🧙🏻‍♀**  
   Penyihir baik yang memiliki dua ramuan:  
-  - **Ramuan Obat 🧫**: Melindungi semua pemain dari serangan Werewolf.  
+  - **Ramuan Obat 🧫**: Melindungi semua warga desa dari serangan Werewolf.  
   - **Ramuan Racun 🧪**: Membunuh satu pemain.  
 
 - **HUNTER 🏹**  
@@ -71,9 +71,20 @@ Berikut adalah daftar perintah yang dapat digunakan selama permainan:
 - **ww left**: Keluar dari sesi permainan.  
 - **ww delete**: Menghapus sesi permainan.  
 - **ww player**: Melihat daftar pemain dalam sesi.  
-- **ww timer**: Mengaktifkan timer (tidak disarankan, karena dapat menyebabkan bot crash).  
+- **ww timer**: Mengaktifkan timer (tidak disarankan, karena dapat menyebabkan bot crash),(disarankan menggunakan bot timer eksternal). 
 - **ww report**: Melaporkan bug atau saran fitur ke developer.  
 - **ww tutor**: Melihat tutorial cara bermain.    
+
+
+
+## **Fitur Bot Timer Eksternal**
+Bot Timer adalah modul pendamping yang mengelola pesan timer untuk permainan Werewolf.
+
+- **Integrasi**: Dirancang untuk bekerja bersama bot Werewolf utama, menggunakan panel yang terpisah alias kita butuh panel lain untuk menjalankan bot timer.
+- **Fungsi Utama**: Bot Timer akan mengirim pesan timer otomatis di grup permainan Werewolf, untuk meringankan beban bot Werewolf dan mencegah crash akibat overload pesan timer.
+- **Konfigurasi**: Pastikan untuk mengatur nomor bot timer di file `config.js` bot Werewolf agar integrasi berjalan lancar,bot timer dan bot werewolf harus ada di grup yang sama, serta pastikan bot timer sudah di pair ke WhatsApp.
+- **Catatan**: Bot Timer hanya mengelola pesan timer, sedangkan logika permainan tetap diatur oleh bot Werewolf. 
+- **Link Download Bot Timer**: [Bot Timer WhatsApp](https://github.com/Raihan3699/Bot-Timer-For-Werewolf-Whatsapp)
 
 ---
 
@@ -91,8 +102,8 @@ Berikut adalah daftar perintah yang dapat digunakan selama permainan:
 
 ## **Fitur Lain**
 
-- **.addowner / .delowner**  
-  Menambahkan atau menghapus owner bot.
+- **.addowner .delowner .listowner**  
+  Menambahkan, menghapus owner bot, dan melihat list owner.
 
 - **.getlid**  
   Mendapatkan Lid user.
@@ -145,7 +156,6 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
 - Jaga rahasia peranmu agar strategi tetap berjalan.
 
 ---
-
 ## **Cara Install & Jalankan**
 
 1. **Clone repositori ini:**
@@ -154,7 +164,7 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
    ```
 2. **Masuk ke folder repositori:**
    ```bash
-   cd Werewolf
+   cd Werewolf-Whatsapp-Bot
    ```
 3. **Install dependencies:**
    ```bash
@@ -166,11 +176,12 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
 - Isi data berikut sesuai dengan nomor WhatsApp bot dan owner milikmu:
   ```js
   // Global Configuration
-  const ownerNumbers = ['62xxxxxxxxxxx'];
-  const botNumbers = ['62xxxxxxxxxxx'];
+  const ownerNumbers = '62xxxxxxxxxxx';
+  const botNumbers = '62xxxxxxxxxxx';
   const lidNumber = '25xxxxxxx@lid'; // kirim command .getlid ke bot untuk mendapatkan LID Anda
   const NamaOwner = 'Nama Kamu';
   const NamaBot = 'Nama Bot Kamu';
+  const botTimer = '62xxxxxxxxxxx' // Ganti dengan nomor timer bot Anda jika tidak ada isi dengan strip '-'
   const pairingMetode = 'qr'; // metode pairing: 'qr' atau 'code'
   ```
    - **Nomor harus diawali 62** (bukan 08).
@@ -184,8 +195,15 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
    - Ikuti instruksi di terminal untuk melakukan pairing (scan QR code atau masukkan kode pairing).
    - Setelah berhasil, bot akan online dan siap digunakan di WhatsApp.
 
+## **Bonus Game — Skata (Sambung Kata)**
+
+`Skata` adalah mini-game sambung kata yang tersedia sebagai bonus untuk dimainkan di grup.
+
+- **Perintah dasar**: Ketik `.skata` untuk membuat room atau bergabung ke room yang dibuat.
+- **Memulai permainan**: Pemain mengetik `.skata start` untuk memulai.
+- **Aturan singkat**: Setiap jawaban harus berupa kata dasar (tanpa spasi atau imbuhan). Pemain bergiliran menjawab kata yang dimulai dari akhiran kata sebelumnya. Ketik `nyerah` untuk menyerah.
+- **Hadiah**: Pemenang mendapatkan poin/XP sesuai konfigurasi bot (lihat implementasi untuk detail).
 
 ---
-
 **Selamat bermain dan nikmati keseruannya! 🎮**
-
+--
