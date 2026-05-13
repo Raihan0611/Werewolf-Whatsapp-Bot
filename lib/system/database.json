@@ -1,0 +1,4469 @@
+{
+  "players": {
+    "251543483859030@lid": {
+      "id": "251543483859030@lid",
+      "name": "Raihan",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": 325,
+      "rank": "Silver ⚙️",
+      "win": 21,
+      "lose": 21,
+      "mvp": 4,
+      "titles": [
+        "👁️ The All-Seeing Eye",
+        "🧪 The Master of Potions",
+        "🩸 Depressed Soul"
+      ],
+      "stats": {
+        "seer": {
+          "win": 4,
+          "lose": 6,
+          "mvp": 1,
+          "game": 10
+        },
+        "werewolf": {
+          "win": 1,
+          "lose": 4,
+          "mvp": 0,
+          "game": 5
+        },
+        "guardian": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "witch": {
+          "win": 4,
+          "lose": 0,
+          "mvp": 3,
+          "game": 4
+        },
+        "hunter": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 7,
+          "lose": 5,
+          "mvp": 0,
+          "game": 12
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 3,
+          "lose": 4,
+          "mvp": 0,
+          "game": 7
+        }
+      }
+    },
+    "158132760223806@lid": {
+      "id": "158132760223806@lid",
+      "name": "tradakosongdua",
+      "platform": "android",
+      "age": 14,
+      "registered": true,
+      "rp": -70,
+      "rank": "Noob 🧻",
+      "win": 2,
+      "lose": 9,
+      "mvp": 1,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 1,
+          "lose": 2,
+          "mvp": 1,
+          "game": 3
+        },
+        "werewolf": {
+          "win": 1,
+          "lose": 1,
+          "mvp": 0,
+          "game": 2
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 0,
+          "lose": 3,
+          "mvp": 0,
+          "game": 3
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        }
+      },
+      "exp": 2288,
+      "skata": 33
+    },
+    "207498510344352@lid": {
+      "id": "207498510344352@lid",
+      "name": "amel",
+      "platform": "android",
+      "age": 13,
+      "registered": true,
+      "rp": -15,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "22935746175088@lid": {
+      "id": "22935746175088@lid",
+      "name": "gans",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": 110,
+      "rank": "Bronze 🧱",
+      "win": 4,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 3,
+          "lose": 0,
+          "mvp": 0,
+          "game": 3
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        }
+      },
+      "exp": 2213,
+      "skata": 37
+    },
+    "164227083989226@lid": {
+      "id": "164227083989226@lid",
+      "name": "Ucup",
+      "platform": "android",
+      "age": 44,
+      "registered": true,
+      "rp": 80,
+      "rank": "Beginner 🪵",
+      "win": 5,
+      "lose": 5,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 1,
+          "lose": 3,
+          "mvp": 0,
+          "game": 4
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 3,
+          "lose": 1,
+          "mvp": 0,
+          "game": 4
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        }
+      },
+      "exp": 502,
+      "skata": -2
+    },
+    "209736272195628@lid": {
+      "id": "209736272195628@lid",
+      "name": "Rapa love Carmen",
+      "platform": "android",
+      "age": 16,
+      "registered": true,
+      "rp": -25,
+      "rank": "Noob 🧻",
+      "win": 1,
+      "lose": 5,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 2,
+          "mvp": 0,
+          "game": 2
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 2,
+          "mvp": 0,
+          "game": 2
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "173435242205422@lid": {
+      "id": "173435242205422@lid",
+      "name": "khem",
+      "platform": "android",
+      "age": 16,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "120363425511294914@lid": {
+      "id": "120363425511294914@lid",
+      "name": "Azzrey",
+      "platform": "android",
+      "age": 25,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "35386772431041@lid": {
+      "id": "35386772431041@lid",
+      "name": "liaa singlet era",
+      "platform": "android",
+      "age": 15,
+      "registered": true,
+      "rp": 115,
+      "rank": "Bronze 🧱",
+      "win": 8,
+      "lose": 6,
+      "mvp": 1,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 2,
+          "lose": 0,
+          "mvp": 1,
+          "game": 2
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 2,
+          "lose": 0,
+          "mvp": 0,
+          "game": 2
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 3,
+          "lose": 5,
+          "mvp": 0,
+          "game": 8
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        }
+      },
+      "exp": 24717,
+      "skata": 297
+    },
+    "7000897392861@lid": {
+      "id": "7000897392861@lid",
+      "name": "orang",
+      "platform": "android",
+      "age": 17,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "260524394737884@lid": {
+      "id": "260524394737884@lid",
+      "name": "imam",
+      "platform": "android",
+      "age": 50,
+      "registered": true,
+      "rp": 50,
+      "rank": "Beginner 🪵",
+      "win": 2,
+      "lose": 2,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        }
+      },
+      "exp": 4001,
+      "skata": 35
+    },
+    "182080977801249@lid": {
+      "id": "182080977801249@lid",
+      "name": "Eliszz",
+      "platform": "android",
+      "age": 12,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "123944921231447@lid": {
+      "id": "123944921231447@lid",
+      "name": "Owen",
+      "platform": "android",
+      "age": 42,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "57054882472144@lid": {
+      "id": "57054882472144@lid",
+      "name": "chaca",
+      "platform": "android",
+      "age": 13,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "166447934353598@lid": {
+      "id": "166447934353598@lid",
+      "name": "alipka",
+      "platform": "android",
+      "age": 12,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "270772186644599@lid": {
+      "id": "270772186644599@lid",
+      "name": "aira",
+      "platform": "android",
+      "age": 12,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "156603718349035@lid": {
+      "id": "156603718349035@lid",
+      "name": "amora",
+      "platform": "android",
+      "age": 13,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "280126440874167@lid": {
+      "id": "280126440874167@lid",
+      "name": "fyr",
+      "platform": "iphone",
+      "age": 25,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "198715822325951@lid": {
+      "id": "198715822325951@lid",
+      "name": "Columbina",
+      "platform": "android",
+      "age": 25,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "118198171107355@lid": {
+      "id": "118198171107355@lid",
+      "name": "Domiz",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": 20,
+      "rank": "Beginner 🪵",
+      "win": 3,
+      "lose": 4,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 1,
+          "lose": 1,
+          "mvp": 0,
+          "game": 2
+        },
+        "guardian": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "witch": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 2,
+          "mvp": 0,
+          "game": 2
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      },
+      "exp": 24555,
+      "skata": 170
+    },
+    "237524593164396@lid": {
+      "id": "237524593164396@lid",
+      "name": "NapiiiGuss",
+      "platform": "android",
+      "age": 20,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "129931971395758@lid": {
+      "id": "129931971395758@lid",
+      "name": "Raymenka",
+      "platform": "android",
+      "age": 17,
+      "registered": true,
+      "rp": 105,
+      "rank": "Bronze 🧱",
+      "win": 8,
+      "lose": 7,
+      "mvp": 2,
+      "titles": [
+        "🐺 Apex Predator"
+      ],
+      "stats": {
+        "seer": {
+          "win": 2,
+          "lose": 3,
+          "mvp": 1,
+          "game": 5
+        },
+        "werewolf": {
+          "win": 2,
+          "lose": 3,
+          "mvp": 1,
+          "game": 5
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 4,
+          "lose": 0,
+          "mvp": 0,
+          "game": 4
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "21136037441737@lid": {
+      "id": "21136037441737@lid",
+      "name": "lili",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": 130,
+      "rank": "Bronze 🧱",
+      "win": 6,
+      "lose": 3,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 1,
+          "lose": 1,
+          "mvp": 0,
+          "game": 2
+        },
+        "guardian": {
+          "win": 2,
+          "lose": 1,
+          "mvp": 0,
+          "game": 3
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 1,
+          "lose": 1,
+          "mvp": 0,
+          "game": 2
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "17292091990138@lid": {
+      "id": "17292091990138@lid",
+      "name": "yansa",
+      "platform": "android",
+      "age": 10,
+      "registered": true,
+      "rp": -45,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 3,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "234338264334554@lid": {
+      "id": "234338264334554@lid",
+      "name": "anha",
+      "platform": "android",
+      "age": 10,
+      "registered": true,
+      "rp": 55,
+      "rank": "Beginner 🪵",
+      "win": 3,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 1,
+          "lose": 1,
+          "mvp": 0,
+          "game": 2
+        },
+        "witch": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "266163552563397@lid": {
+      "id": "266163552563397@lid",
+      "name": "zeus",
+      "platform": "android",
+      "age": 11,
+      "registered": true,
+      "rp": -5,
+      "rank": "Noob 🧻",
+      "win": 1,
+      "lose": 2,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "guardian": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "98054220857545@lid": {
+      "id": "98054220857545@lid",
+      "name": "Hima",
+      "platform": "android",
+      "age": 20,
+      "registered": true,
+      "rp": 105,
+      "rank": "Bronze 🧱",
+      "win": 5,
+      "lose": 2,
+      "mvp": 1,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 1,
+          "lose": 1,
+          "mvp": 0,
+          "game": 2
+        },
+        "guardian": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 1,
+          "game": 1
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 2,
+          "lose": 1,
+          "mvp": 0,
+          "game": 3
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "235145617498151@lid": {
+      "id": "235145617498151@lid",
+      "name": "nana",
+      "platform": "android",
+      "age": 17,
+      "registered": true,
+      "rp": 40,
+      "rank": "Beginner 🪵",
+      "win": 4,
+      "lose": 5,
+      "mvp": 2,
+      "titles": [
+        "🛡️ The Immortal Shield"
+      ],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "guardian": {
+          "win": 2,
+          "lose": 1,
+          "mvp": 2,
+          "game": 3
+        },
+        "witch": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 2,
+          "lose": 2,
+          "mvp": 0,
+          "game": 4
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "110080347402326@lid": {
+      "id": "110080347402326@lid",
+      "name": "Kasep",
+      "platform": "android",
+      "age": 20,
+      "registered": true,
+      "rp": -5,
+      "rank": "Noob 🧻",
+      "win": 1,
+      "lose": 2,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 1,
+          "lose": 2,
+          "mvp": 0,
+          "game": 3
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      },
+      "exp": 10316,
+      "skata": 24
+    },
+    "203933922398337@lid": {
+      "id": "203933922398337@lid",
+      "name": "dimseuu",
+      "platform": "android",
+      "age": 20,
+      "registered": true,
+      "rp": 105,
+      "rank": "Bronze 🧱",
+      "win": 4,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 2,
+          "lose": 0,
+          "mvp": 0,
+          "game": 2
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 2,
+          "lose": 0,
+          "mvp": 0,
+          "game": 2
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      },
+      "exp": 21774,
+      "skata": 85
+    },
+    "255143052370050@lid": {
+      "id": "255143052370050@lid",
+      "name": "cong",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      },
+      "exp": 5614,
+      "skata": 64
+    },
+    "132023435976744@lid": {
+      "id": "132023435976744@lid",
+      "name": "anin",
+      "platform": "android",
+      "age": 14,
+      "registered": true,
+      "rp": 10,
+      "rank": "Beginner 🪵",
+      "win": 2,
+      "lose": 3,
+      "mvp": 1,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 1,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 2,
+          "mvp": 0,
+          "game": 2
+        },
+        "warga": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "55250643873931@lid": {
+      "id": "55250643873931@lid",
+      "name": "adel",
+      "platform": "android",
+      "age": 15,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "118765224251459@lid": {
+      "id": "118765224251459@lid",
+      "name": "Lana",
+      "platform": "android",
+      "age": 17,
+      "registered": true,
+      "rp": 25,
+      "rank": "Beginner 🪵",
+      "win": 2,
+      "lose": 2,
+      "mvp": 1,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 1,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "218137647702056@lid": {
+      "id": "218137647702056@lid",
+      "name": "rei",
+      "platform": "android",
+      "age": 15,
+      "registered": true,
+      "rp": -15,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "5003972460612@lid": {
+      "id": "5003972460612@lid",
+      "name": "Zaki",
+      "platform": "android",
+      "age": 11,
+      "registered": true,
+      "rp": -15,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "105051024556055@lid": {
+      "id": "105051024556055@lid",
+      "name": "savero",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      },
+      "exp": 5017,
+      "skata": -2
+    },
+    "162968977338617@lid": {
+      "id": "162968977338617@lid",
+      "name": "Hana",
+      "platform": "android",
+      "age": 10,
+      "registered": true,
+      "rp": -30,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 2,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "29790530752590@lid": {
+      "id": "29790530752590@lid",
+      "name": "dewi",
+      "platform": "android",
+      "age": 15,
+      "registered": true,
+      "rp": -45,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 3,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "250014811029723@lid": {
+      "id": "250014811029723@lid",
+      "name": "yippa",
+      "platform": "android",
+      "age": 16,
+      "registered": true,
+      "rp": -15,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "88945283068050@lid": {
+      "id": "88945283068050@lid",
+      "name": "Reni",
+      "platform": "android",
+      "age": 14,
+      "registered": true,
+      "rp": 25,
+      "rank": "Beginner 🪵",
+      "win": 1,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "182021049598054@lid": {
+      "id": "182021049598054@lid",
+      "name": "Alfa",
+      "platform": "android",
+      "age": 14,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "113335764836600@lid": {
+      "id": "113335764836600@lid",
+      "name": "sigma",
+      "platform": "android",
+      "age": 10,
+      "registered": true,
+      "rp": -15,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "234247902253158@lid": {
+      "id": "234247902253158@lid",
+      "name": "artha",
+      "platform": "android",
+      "age": 19,
+      "registered": true,
+      "rp": -30,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 2,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "175471509692526@lid": {
+      "id": "175471509692526@lid",
+      "name": "cibungbung",
+      "platform": "android",
+      "age": 19,
+      "registered": true,
+      "rp": -15,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "20483101732916@lid": {
+      "id": "20483101732916@lid",
+      "name": "rayne",
+      "platform": "android",
+      "age": 17,
+      "registered": true,
+      "rp": 0,
+      "rank": "Beginner 🪵",
+      "win": 0,
+      "lose": 0,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "51801852252235@lid": {
+      "id": "51801852252235@lid",
+      "name": "Hanni",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": 85,
+      "rank": "Beginner 🪵",
+      "win": 3,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "55337029771461@lid": {
+      "id": "55337029771461@lid",
+      "name": "Rachel",
+      "platform": "android",
+      "age": 12,
+      "registered": true,
+      "rp": 60,
+      "rank": "Beginner 🪵",
+      "win": 2,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 1,
+          "lose": 0,
+          "mvp": 0,
+          "game": 1
+        }
+      }
+    },
+    "278821341262046@lid": {
+      "id": "278821341262046@lid",
+      "name": "Alea",
+      "platform": "android",
+      "age": 18,
+      "registered": true,
+      "rp": -45,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 3,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 2,
+          "mvp": 0,
+          "game": 2
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "6503167697054@lid": {
+      "id": "6503167697054@lid",
+      "name": "yola",
+      "platform": "android",
+      "age": 67,
+      "registered": true,
+      "rp": -60,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 4,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "warga": {
+          "win": 0,
+          "lose": 2,
+          "mvp": 0,
+          "game": 2
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    },
+    "89017542525143@lid": {
+      "id": "89017542525143@lid",
+      "name": "bbin",
+      "platform": "android",
+      "age": 14,
+      "registered": true,
+      "rp": -15,
+      "rank": "Noob 🧻",
+      "win": 0,
+      "lose": 1,
+      "mvp": 0,
+      "titles": [],
+      "stats": {
+        "seer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "werewolf": {
+          "win": 0,
+          "lose": 1,
+          "mvp": 0,
+          "game": 1
+        },
+        "guardian": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "witch": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "hunter": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "sorcerer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "alpha": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "warga": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "necromancer": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "cursed": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "corrupt": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        },
+        "tanner": {
+          "win": 0,
+          "lose": 0,
+          "mvp": 0,
+          "game": 0
+        }
+      }
+    }
+  }
+}

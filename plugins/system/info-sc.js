@@ -8,13 +8,10 @@ let handler = async (m, { conn }) => {
         '《█████████████》',
         '𝙻𝙾𝙰𝙳𝙸𝙽𝙶...'
     ];
-
     let { key } = await conn.sendMessage(m.chat, { text: '_Loading_' });
-
     for (let i = 0; i < loadd.length; i++) {
-        await conn.sendMessage(m.chat, { text: loadd[i], edit: key });
+        await conn.editMessage(m.chat, key, loadd[i]);
     }
-
     // Info script Werewolf Bot
     let info = `╭━[ *SCRIPT WEREWOLF BOT* ]━╮
 
@@ -32,12 +29,9 @@ Silakan kunjungi link di atas untuk mendapatkan script, tutorial, atau bertanya 
 Jangan lupa subscribe dan support channel YouTube developer!
 
 ╰━━━━━━━━━━━━━━━━━━━━━╯`;
-
     await conn.sendMessage(m.chat, { text: info }, { quoted: m });
 };
-
 handler.help = ['sc']
 handler.tags = ['info']
 handler.command = /^(sc|script|source)$/i;
-
 export default handler;

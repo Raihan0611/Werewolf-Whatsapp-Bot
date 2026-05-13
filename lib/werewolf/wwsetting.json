@@ -1,7 +1,13 @@
 {
-  "timer": true,
-  "timerSeconds": 60,
-  "gcmode": true,
+  "timer": false,
+  "timerSeconds": 45,
+  "gcmode": false,
   "autotimer": false,
-  "kartu": false
+  "kartu": false,
+  "button": true,
+  "debug": true,
+  "menu": true,
+  "anticheat": true,
+  "thumbnail": false,
+  "icon": false
 }
