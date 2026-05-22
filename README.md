@@ -83,7 +83,7 @@ Berikut adalah daftar perintah yang dapat digunakan selama permainan:
 - **ww timer**: Mengaktifkan timer (tidak disarankan, karena dapat menyebabkan bot crash),(disarankan menggunakan bot timer eksternal).
 - **ww board**: Melihat papan skor dan statistik permainan.
 - **ww set**: Mengatur konfigurasi permainan (hanya untuk owner/developer).
-- **ww report**: Melaporkan bug atau saran fitur ke developer.
+- **ww report**: Melaporkan player yang curang.
 
 ## **Fitur Bot Timer Eksternal**
 
