@@ -32,6 +32,6 @@ let handler = async (m, { conn, command, usedPrefix, args }) => {
   }
 }
 
-handler.command = /^device$/i
-handler.private = true
+handler.daftar = true
+
 export default handler

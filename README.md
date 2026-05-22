@@ -9,8 +9,8 @@
 1. **Berbasis WhatsApp Bot**: Permainan dikelola sepenuhnya oleh bot WhatsApp, sehingga pemain dapat fokus menikmati permainan tanpa harus mengatur manual.
 2. **Peran yang Dinamis**: Setiap pemain mendapatkan peran yang unik, dengan kemampuan dan tujuan berbeda.
 3. **Multiplayer**: Mendukung 4 hingga 15 pemain dalam satu sesi permainan.
-4. **Fitur Debug untuk Owner/Developer**: Fitur khusus untuk melihat informasi detail tentang grup yang sedang bermain.
-5. **Interaksi Berbasis Perintah**: Pemain hanya perlu menggunakan perintah sederhana untuk berinteraksi dengan bot.
+4. **Fitur Debug untuk Owner/Developer**: Fitur khusus untuk melihat informasi detail tentang grup yang sedang bermain dan untuk melakukan pengetesan/debugging.
+5. **Interaksi Berbasis Perintah**: Pemain hanya perlu menggunakan perintah sederhana atau menekan tombol yang tersedia untuk berinteraksi dengan bot.
 
 ---
 
@@ -60,22 +60,30 @@
 - **CURSED 🧟‍♂**  
   Pemain yang terkutuk yang awalnya adalah warga biasa, tetapi jika dibunuh werewolf, dia akan berubah menjadi Werewolf.
 
+- **CORRUPT 🧑🏻‍💻**
+  Seorang Hacker yang bisa meretas player lain agar mereka tidak bisa menggunkan skilnya dan tidak bisa vote, tapi player yang di hack bisa bebas jika corrupt mati atau player memecahkan kode, selain itu Corrupt tidak bisa di kill oleh Werewolf, cara Corrupt menang adalah dengan mennjadi Last Man Standing, jika Corrupt mati maka semua player yang di hack akan bebas dan Corrupt kalah.
+
 ---
 
 ## **List Perintah**
 
 Berikut adalah daftar perintah yang dapat digunakan selama permainan:
 
+- **ww tutor**: Melihat tutorial cara bermain.
 - **ww role**: Menampilkan penjelasan tentang peran.
+- **ww list**: Melihat daftar jumlah role.
 - **ww create**: Membuat sesi permainan baru.
 - **ww join**: Bergabung ke dalam sesi permainan.
 - **ww start**: Memulai permainan.
 - **ww leave**: Keluar dari sesi permainan.
 - **ww delete**: Menghapus sesi permainan.
+- **ww wait**: Masuk daftar tunggu.
 - **ww player**: Melihat daftar pemain dalam sesi.
+- **ww vote**: Melakukan voting untuk mengeliminasi pemain.
 - **ww timer**: Mengaktifkan timer (tidak disarankan, karena dapat menyebabkan bot crash),(disarankan menggunakan bot timer eksternal).
+- **ww board**: Melihat papan skor dan statistik permainan.
+- **ww set**: Mengatur konfigurasi permainan (hanya untuk owner/developer).
 - **ww report**: Melaporkan bug atau saran fitur ke developer.
-- **ww tutor**: Melihat tutorial cara bermain.
 
 ## **Fitur Bot Timer Eksternal**
 
@@ -85,7 +93,7 @@ Bot Timer adalah modul pendamping yang mengelola pesan timer untuk permainan Wer
 - **Fungsi Utama**: Bot Timer akan mengirim pesan timer otomatis di grup permainan Werewolf, untuk meringankan beban bot Werewolf dan mencegah crash akibat overload pesan timer.
 - **Konfigurasi**: Pastikan untuk mengatur nomor bot timer di file `config.js` bot Werewolf agar integrasi berjalan lancar,bot timer dan bot werewolf harus ada di grup yang sama, serta pastikan bot timer sudah di pair ke WhatsApp.
 - **Catatan**: Bot Timer hanya mengelola pesan timer, sedangkan logika permainan tetap diatur oleh bot Werewolf.
-- **Link Download Bot Timer**: [Bot Timer WhatsApp](https://github.com/Raihan3699/Bot-Timer-For-Werewolf-Whatsapp)
+- **Link Download Bot Timer**: [Bot Timer WhatsApp](https://github.com/Raihan0611/Bot-Timer-For-Werewolf-Whatsapp)
 
 ---
 
@@ -93,21 +101,38 @@ Bot Timer adalah modul pendamping yang mengelola pesan timer untuk permainan Wer
 
 - **Akses Khusus Owner/Developer**: Fitur ini hanya dapat digunakan oleh owner bot atau developer.
 - **Fungsi Utama**:
+  - .debug menu on/off: Mengaktifkan atau menonaktifkan menu.
   - Melihat semua role & status player di room.
   - Skip fase room saat ini.
   - Tampilkan fase saat ini beserta sisa waktu.
   - Set/atur role player
+  - DLL
   - Hanya untuk debugging, bukan untuk pemain biasa.
 
 ---
 
 ## **Fitur Lain**
 
+- **.menu**  
+  Melihat daftar perintah yang tersedia.
+
 - **.addowner .delowner .listowner**  
   Menambahkan, menghapus owner bot, dan melihat list owner.
 
 - **.getlid**  
   Mendapatkan Lid user.
+
+- **.ban .unban .listban**  
+  Melakukan ban atau unban user, dan melihat list user yang dibanned.
+
+- **.daftar .unreg**  
+  Mendaftar atau menghapus pendaftaran user di database bot.
+
+- **.device**
+  Melihat informasi devicemu dan ganti device.
+
+- **.bot on/off**  
+  Mengaktifkan atau menonaktifkan bot untuk sementara di grup.
 
 ---
 
@@ -116,7 +141,7 @@ Bot Timer adalah modul pendamping yang mengelola pesan timer untuk permainan Wer
 _(Versi Bot WhatsApp)_
 
 **A. Pembuatan Room**  
-Satu player mengetik `.ww create` untuk membuat Room dan para Player yang ingin main mengetik `.ww join` hingga jumlah pemain cukup. Lalu ketik `.ww start` untuk memulai permainan maka Bot akan berjalan secara Otomatis.
+Satu player mengetik `.ww create` untuk membuat Room dan para Player yang ingin main mengetik `.ww join` (Atau klik tombol join) hingga jumlah pemain cukup. Lalu ketik `.ww start` untuk memulai permainan maka Bot akan berjalan secara Otomatis.
 
 **B. Pembagian Peran**  
 Setiap pemain akan mendapatkan peran secara acak, seperti Werewolf, Seer, Guardian, dll.  
@@ -125,21 +150,22 @@ Sebelum permainan dimulai, bot akan membagikan peran secara otomatis lewat chat 
 **C. Fase Permainan (Dipandu Bot)**  
 Permainan terbagi menjadi 4 fase yang berjalan berulang:
 
-1. **Pagi (Info & Pengumuman)**
+1. **Malam (Aksi Peran)**
+   - Pemain yang punya kemampuan khusus bisa menggunakan perannya lewat chat pribadi ke bot.
+   - Gunakan command: `.wwpc` Bot akan membalas dan memberi pilihan skill yang bisa digunakan, sesuai peranmu. contoh penggunaan `.wwpc kill 1` (Atau bisa juga dengan klik tombol yang tersedia).
+   - Contoh aksi malam: Werewolf memilih korban, Seer menerawang, Guardian melindungi, dll.
+
+2. **Pagi (Info & Pengumuman)**
    - Bot akan mengumumkan hasil malam sebelumnya, seperti siapa yang mati, dan informasi lainnya.
 
-2. **Siang (Diskusi)**
+3. **Siang (Diskusi)**
    - Pemain bebas berdiskusi di grup untuk mencari tahu siapa yang dicurigai sebagai Werewolf.
    - Tidak ada perintah khusus di fase ini, cukup ngobrol dan analisis bareng.
 
-3. **Sore (Voting)**
+4. **Sore (Voting)**
    - Pemain melakukan voting untuk mengeliminasi satu pemain yang paling dicurigai.
-   - Gunakan command: `.ww vote (nomor)` contoh `.ww vote 1`
-
-4. **Malam (Aksi Peran)**
-   - Pemain yang punya kemampuan khusus bisa menggunakan perannya lewat chat pribadi ke bot.
-   - Gunakan command: `.wwpc` Bot akan membalas dan memberi pilihan skill yang bisa digunakan, sesuai peranmu. contoh penggunaan `.wwpc kill 1`
-   - Contoh aksi malam: Werewolf memilih korban, Seer menerawang, Guardian melindungi, dll.
+   - Gunakan command: `.ww vote (nomor)` contoh `.ww vote 1` (Atau bisa juga dengan klik tombol yang tersedia).
+   - Pemain yang mendapatkan vote terbanyak akan dieliminasi dan keluar dari permainan.
 
 **D. Cara Menang**
 
@@ -182,13 +208,20 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
 
   ```js
   // Global Configuration
-  const ownerNumbers = "62xxxxxxxxxxx";
-  const botNumbers = "62xxxxxxxxxxx";
-  const lidNumber = "25xxxxxxx@lid"; // kirim command .getlid ke bot untuk mendapatkan LID Anda
-  const NamaOwner = "Nama Kamu";
-  const NamaBot = "Nama Bot Kamu";
-  const botTimer = "62xxxxxxxxxxx"; // Ganti dengan nomor timer bot Anda jika tidak ada isi dengan strip '-'
+  const ownerNumbers = "62xxxxxxxxxx"; // Ganti dengan nomor WhatsApp Anda
+  const lidNumber = "25xxxxxxxxxxxxx@lid"; // kirim command .getid ke bot untuk mendapatkan nomor lid, penting!! wajib ganti jadi nomor lid mu untuk fitur owner
+  const botNumbers = "62xxxxxxxxxxx"; // penting!! wajib ganti jadi nomor bot mu untuk Pairing number
+  const NamaOwner = "Nama Anda"; // Ganti dengan nama Anda
+  const NamaBot = "Nama Bot Anda"; // Ganti dengan nama bot Anda
+  const Watermark = "© 2026 Ultimate Werewolf"; // Ganti dengan watermark bot Anda
   const pairingMetode = "qr"; // metode pairing: 'qr' atau 'code'
+  const delay = 1000; // delay untuk menghindari spam, dalam milidetik
+
+  // Jika tidak mengerti cara menggunakannya diamkan saja, agar bot berjalan dengan settingan default, jika ingin menggunakannya silahkan tanya owner atau lihat di Readme.
+  const pakaiBotTimer = false; // Ganti dengan true jika ingin menggunakan timer, false jika tidak ingin menggunakan timer
+  const LidbotTimer = "-"; // Ganti dengan nomor @Lid Bot Timer Anda jika tidak ada isi dengan strip '-'
+  const pakaiBotPembantu = false; // Ganti dengan true jika ingin menggunakan bot pembantu, false jika tidak ingin menggunakan bot pembantu
+  const LidbotPembantu = "-"; // Ganti dengan nomor bot pembantu Anda jika tidak ada isi dengan strip '-', // Fitur ini masih dalam tahap pengembangan.
   ```
 
   - **Nomor harus diawali 62** (bukan 08).
@@ -215,3 +248,7 @@ Permainan terbagi menjadi 4 fase yang berjalan berulang:
 ---
 
 ## **Selamat bermain dan nikmati keseruannya! 🎮**
+
+---
+
+# Fitur Bot Pembantu masih dalam tahap pengembangan~~

@@ -1,7 +1,7 @@
 {
-  "timer": false,
-  "timerSeconds": 45,
-  "gcmode": false,
+  "timer": true,
+  "timerSeconds": 60,
+  "gcmode": true,
   "autotimer": false,
   "kartu": false,
   "button": true,
@@ -9,5 +9,8 @@
   "menu": true,
   "anticheat": true,
   "thumbnail": false,
-  "icon": false
+  "icon": false,
+  "selftimer": true,
+  "selfvote": true,
+  "autoban": true
 }

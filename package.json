@@ -1,6 +1,6 @@
 {
   "name": "Ultimate-Werewolf-WhatsApp-Bot",
-  "version": "9.2.0",
+  "version": "9.3.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "baileys": "github:Rifza123/baileys",
+    "baileys": "7.0.0-rc11",
     "cfonts": "^3.3.1",
     "chalk": "^5.6.2",
     "jimp": "^1.6.0",
